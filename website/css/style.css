@@ -1,9 +1,9 @@
-/* Simple, static styling. No animation, no scripts. */
+
 :root { --bg: #fbf9f4; --text: #25231f; --muted: #5d5a52; --accent: #3b5a40; --line: #d9d4c7; }
 * { box-sizing: border-box; }
 html { font-size: 112.5%; }
 body { margin: 0; background-color: var(--bg); color: var(--text); font-family: Georgia, "Times New Roman", serif; line-height: 1.65; }
-/* Faint painted herbs in the page margins on wide screens only. */
+/* Herbs in margins */
 @media (min-width: 72rem) {
   body {
     background-image: url(../images/queen-annes-lace-bg.svg), url(../images/pennyroyal-bg.svg), url(../images/tansy-bg.svg), url(../images/mugwort-bg.svg);
@@ -34,7 +34,7 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
 main { padding-top: 2rem; padding-bottom: 2rem; }
 
-/* Small painted plant at the start of a first paragraph, like an illuminated initial. */
+/* Decorative plant images- derivative bullshit rn but later will be nice art */
 .ornament { float: left; width: 70px; height: auto; margin: 0.1rem 0.9rem 0.2rem 0; }
 
 .hero { display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; align-items: start; }
